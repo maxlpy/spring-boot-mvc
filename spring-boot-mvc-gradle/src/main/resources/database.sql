@@ -1,0 +1,2 @@
+INSERT INTO `test`.`sas_artifactory` (`id`, `name`, `version`, `license`, `redistribution`, `approval`) VALUES ('1', 'boot', '2.0', 'Apach3.0', 'No', 'No');
+INSERT INTO `test`.`sas_artifactory` (`id`, `name`, `version`, `license`, `redistribution`, `approval`) VALUES ('2', 'tomcat', '7.0', 'Apach2.0', 'Yes', 'Yes');
