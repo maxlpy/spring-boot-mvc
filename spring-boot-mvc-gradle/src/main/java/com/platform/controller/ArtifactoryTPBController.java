@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.platform.bean.ArtifactoryTPB;
+import com.platform.entity.ArtifactoryTPB;
 import com.platform.service.ArtifactoryTPBService;
 
 @Controller

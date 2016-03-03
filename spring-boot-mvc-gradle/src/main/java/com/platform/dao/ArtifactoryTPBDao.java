@@ -4,7 +4,7 @@ import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.platform.bean.ArtifactoryTPB;
+import com.platform.entity.ArtifactoryTPB;
 
 @Repository
 public interface ArtifactoryTPBDao extends CrudRepository<ArtifactoryTPB, Long> {

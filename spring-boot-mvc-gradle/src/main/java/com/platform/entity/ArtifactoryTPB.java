@@ -1,4 +1,4 @@
-package com.platform.bean;
+package com.platform.entity;
 
 import java.sql.Clob;
 import java.util.List;
