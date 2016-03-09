@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Bootstrap Example</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="js/core.js"></script>
+  <link rel="stylesheet" href="css/core.css"/>
+</head>
+<body>
+
+<div class="container">
+  <div class="header row">
+    <div class="col-md-2">First Name</div>
+    <div class="col-md-2">Last Name</div>
+    <div class="col-md-2">Phone</div>
+    <div class="col-md-2">Email</div>
+  </div>
+  <div class="row" th:each="message : ${messages}">
+  <!-- <div class="col-md-2"><img th:src="@{/image/arrow.png}" style="width: 20px; height: 20px;"/></div> -->
+    <div class="col-md-2" th:text="${message.firstName}"></div>
+    <div class="col-md-2" th:text="${message.lastName}"></div>
+    <div class="col-md-2" th:text="${message.phone}"></div>
+    <div class="col-md-2" th:text="${message.email}"></div>
+  </div>
+</div>
+
+</body>
+</html>
